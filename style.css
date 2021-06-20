@@ -1,0 +1,55 @@
+body {
+    font-size: 15pt;
+    background-color: lightskyblue;
+}
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    padding: 0 10px;
+    text-transform: uppercase;
+    color: darkgreen;
+    text-decoration: none;
+  }
+  
+  .header-icon {
+    height: 100px;
+    width: auto;
+  }
+  
+  img {
+    height: 50px;
+    width: auto;
+  }
+  
+  .hide {
+    visibility: hidden;
+  }
+  
+  .bell.show {
+    display: block;
+  }
+  
+  button {
+    box-sizing: border-box;
+    display: block;
+    width: 10em;
+    height: 3em;
+    border-radius: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content:center;
+    flex-flow: column nowrap;
+  }
